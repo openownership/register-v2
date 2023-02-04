@@ -62,13 +62,6 @@ class EntitiesController < ApplicationController
     end
   end
 
-  def tree
-    entity = Entity.find(params[:id])
-    redirect_to_master_entity?(:tree, entity) && return
-    @node = decorate_with(TreeNode.new(entity), TreeNodeDecorator)
-    @entity = decorate(entity)
-  end
-
   def graph
     entity = Entity.find(params[:id])
     redirect_to_master_entity?(:graph, entity) && return
