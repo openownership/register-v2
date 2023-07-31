@@ -48,7 +48,7 @@ gem 'register_sources_oc', git: 'https://github.com/openownership/register-sourc
 gem 'register_sources_psc', git: 'https://github.com/openownership/register-sources-psc.git'
 gem 'register_sources_bods', git: 'https://github.com/openownership/register-sources-bods.git', branch: 'unknown-persons'
 gem 'register_sources_sk', git: 'https://github.com/openownership/register-sources-sk.git'
-gem 'register_sources_dk', git: 'https://github.com/openownership/register-sources-dk.git', branch: 'update-index'
+gem 'register_sources_dk', git: 'https://github.com/openownership/register-sources-dk.git'
 
 group :development, :test do
   gem 'byebug', '~> 11.1'
