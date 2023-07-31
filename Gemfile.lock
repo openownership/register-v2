@@ -18,6 +18,34 @@ GIT
       xxhash
 
 GIT
+  remote: https://github.com/openownership/register-sources-bods.git
+  revision: 18c86b7026476c9d17edab2acb473b4bdb8bd8b7
+  branch: unknown-persons
+  specs:
+    register_sources_bods (0.1.0)
+      activesupport (>= 6, < 8)
+      countries (~> 4.0.1)
+      dry-struct (>= 1, < 2)
+      dry-types (>= 1, < 2)
+      elasticsearch (>= 7.10, < 8)
+      iso8601
+      xxhash
+
+GIT
+  remote: https://github.com/openownership/register-sources-dk.git
+  revision: 8297b13642b673586bac36b142d2aa1dc945aea9
+  branch: update-index
+  specs:
+    register_sources_dk (0.1.0)
+      activesupport (>= 6, < 8)
+      countries (~> 4.0.1)
+      dry-struct (>= 1, < 2)
+      dry-types (>= 1, < 2)
+      elasticsearch (>= 7.10, < 8)
+      iso8601
+      xxhash
+
+GIT
   remote: https://github.com/openownership/register-sources-oc.git
   revision: ab0239b2caecc56af869b9787c4a6b59b40675bc
   specs:
@@ -53,30 +81,6 @@ GIT
   revision: 65237051808e2a9b082071521cda581baad9e9da
   specs:
     register_sources_sk (0.1.0)
-      activesupport (>= 6, < 8)
-      countries (~> 4.0.1)
-      dry-struct (>= 1, < 2)
-      dry-types (>= 1, < 2)
-      elasticsearch (>= 7.10, < 8)
-      iso8601
-      xxhash
-
-PATH
-  remote: ../register-sources-bods
-  specs:
-    register_sources_bods (0.1.0)
-      activesupport (>= 6, < 8)
-      countries (~> 4.0.1)
-      dry-struct (>= 1, < 2)
-      dry-types (>= 1, < 2)
-      elasticsearch (>= 7.10, < 8)
-      iso8601
-      xxhash
-
-PATH
-  remote: ../register-sources-dk
-  specs:
-    register_sources_dk (0.1.0)
       activesupport (>= 6, < 8)
       countries (~> 4.0.1)
       dry-struct (>= 1, < 2)
