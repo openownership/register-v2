@@ -19,7 +19,8 @@ GIT
 
 GIT
   remote: https://github.com/openownership/register-sources-bods.git
-  revision: 1eae1f3d73f2f4e0f624bcd728ac1f0f19dc7676
+  revision: 6d4cbe43c8188a28ac2b85bf46d1873ea7f39e75
+  branch: register-fixes
   specs:
     register_sources_bods (0.1.0)
       activesupport (>= 6, < 8)
@@ -230,7 +231,7 @@ GEM
       activesupport (>= 5.0)
       request_store (>= 1.0)
       ruby2_keywords
-    dry-core (1.0.0)
+    dry-core (1.0.1)
       concurrent-ruby (~> 1.0)
       zeitwerk (~> 2.6)
     dry-inflector (1.0.0)
@@ -542,7 +543,7 @@ GEM
     xpath (3.2.0)
       nokogiri (~> 1.8)
     xxhash (0.5.0)
-    zeitwerk (2.6.10)
+    zeitwerk (2.6.11)
 
 PLATFORMS
   x86_64-linux
